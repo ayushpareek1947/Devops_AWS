@@ -1,5 +1,6 @@
 a=5
 b=8
 c=7
-sum=a+b+c
+d=98
+sum=a+b+c+d
 print(sum)
