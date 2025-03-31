@@ -1,3 +1,5 @@
+In 2nd day video
+
     1  yum install git
     2  clear
     3  git --version
