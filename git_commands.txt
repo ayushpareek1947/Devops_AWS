@@ -1,0 +1,56 @@
+    1  yum install git
+    2  clear
+    3  git --version
+    4  mkdir git-demo
+    5  ls
+    6  cd git-demo
+    7  pwd
+    8  nano sample.py
+    9  ls
+   10  vi sample.py
+   11  nano sample.py
+   12  cat sample.py
+   13  git init
+   14  git status
+   15  cd ..
+   16  ls
+   17  cd -
+   18  ls
+   19  git add sample.py
+   20  git status
+   21  git commit -m "1st Commit on Git"
+   22  git config --global user.name "ayushpareek1947"
+   23  git config --global user.email "pareekayush320@gmail.com"
+   24  git config --list
+   25  git commit -m "1st Commit on Git"
+   26  clean
+   27  clear
+   28  git log 
+   29  git log -oneline
+   30  git log --oneline
+   31  git log --twoline
+   32  vi sample.py
+   33  git status
+   34  git add sample.py
+   35  git status
+   36  git commit -m "2nd Commit on Git"
+   37  vi sample.py
+   38  git status
+   39  git commit -a -a "3rd commit on Git"
+   40  git commit -a -m "3rd commit on Git"
+   41  git status
+   42  vi sample.py
+   43  git commit -a -m "4th commit on Git"
+   44  git status
+   45  git log
+   46  git log --oneline
+   47  git show 81bc8a1
+   48  git show 40045ee
+   49  history
+   50  git status
+   51  git branch -M main
+   52  git status
+   53  git remote add origin https://github.com/ayushpareek1947/Devops_AWS.git
+   54  git remote -v
+   55  git push -u origin main
+   56  history >git_commands.txt
